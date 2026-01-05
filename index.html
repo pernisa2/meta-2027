@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meta2026</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="left">
+        <h1 class="title">Meta2026</h1>
+        <p class="subtitle">Adicione suas metas de 2026 e marque como concluídas ao longo do ano.</p>
+      </div>
+
+      <div class="stats" aria-label="Resumo">
+        <div class="pill">Total: <span id="statTotal">0</span></div>
+        <div class="pill ok">Concluídas: <span id="statDone">0</span></div>
+        <div class="pill warn">Pendentes: <span id="statPending">0</span></div>
+      </div>
+    </header>
+
+    <main class="card">
+      <form id="goalForm" class="form">
+        <input
+          id="goalInput"
+          class="input"
+          type="text"
+          placeholder="Ex: Juntar R$ 10.000 / Viajar / Passar em X matéria..."
+          maxlength="120"
+          autocomplete="off"
+          required
+        />
+        <button class="btn primary" type="submit">Adicionar</button>
+      </form>
+
+      <section class="toolbar">
+        <div class="filters" role="tablist" aria-label="Filtros">
+          <button class="chip active" data-filter="all" type="button">Todas</button>
+          <button class="chip" data-filter="pending" type="button">Pendentes</button>
+          <button class="chip" data-filter="done" type="button">Concluídas</button>
+        </div>
+
+        <div class="actions">
+          <button id="btnClearDone" class="btn ghost" type="button">Remover concluídas</button>
+          <button id="btnClearAll" class="btn danger" type="button">Apagar tudo</button>
+        </div>
+      </section>
+
+      <div id="emptyState" class="empty" hidden>
+        <p>Nenhuma meta ainda.</p>
+        <p class="muted">Adicione uma meta acima pra começar.</p>
+      </div>
+
+      <ul id="goalList" class="list" aria-label="Lista de metas"></ul>
+    </main>
+
+    <footer class="footer">
+      <span class="muted">
+        Salva no seu navegador (localStorage). Se você abrir em outro PC/celular, não vai aparecer.
+      </span>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
