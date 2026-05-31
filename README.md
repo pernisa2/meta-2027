@@ -52,5 +52,5 @@ Se preferir baixar o código para rodar no seu computador:
 ### 📐 Demonstração Visual
 
 <p align="center">
-* <img width="1269" height="872" alt="WhatsApp Image 2026-05-31 at 20 10 03" src="https://github.com/user-attachments/assets/8b687bbb-7dad-40fb-a74c-ebdb981fd227" />
+* <img width="1653" height="640" alt="Gemini_Generated_Image_gf8buugf8buugf8b" src="https://github.com/user-attachments/assets/4485ef85-75cc-4cb3-bd17-1f04e0e17088" />
 </p>
