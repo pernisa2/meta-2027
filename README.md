@@ -1,4 +1,4 @@
-# 🎯 Meta 2027
+# 🎯 Metas
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -7,6 +7,14 @@
 </p>
 
 > 📈 **Gestor de Metas & Objetivos:** Uma aplicação web focada em planejamento estratégico pessoal, permitindo definir metas de longo prazo, acompanhar marcos de progresso e visualizar o crescimento anual.
+
+---
+
+## 🔗 Demonstração Online
+
+Quer ver o projeto funcionando agora? Clique no link abaixo:
+
+👉 **[Acessar o Meta 2027 Online](https://pernisa2.github.io/meta-2027/)**
 
 ---
 
@@ -19,22 +27,30 @@ O **Meta 2027** foi desenvolvido para ser uma ferramenta de suporte à organiza�
 ## 🚀 Diferenciais Técnicos e Funcionalidades
 
 * **Planejamento de Longo Prazo:** Interface otimizada para definir, gerenciar e revisar metas estendidas.
-* **Persistência Local (`LocalStorage`):** Assim como em meus projetos de lista, os dados são salvos automaticamente no navegador do usuário, garantindo que as metas estejam sempre disponíveis.
+* **Persistência Local (`LocalStorage`):** Os dados são salvos automaticamente no navegador do usuário, garantindo que as metas estejam sempre disponíveis, sem precisar de banco de dados externo.
 * **Interface Focada em Resultados:** Design limpo e intuitivo para reduzir distrações e manter o usuário engajado no cumprimento dos objetivos.
 * **Experiência Responsiva:** Adaptado para ser utilizado tanto no desktop quanto em dispositivos móveis, permitindo consultas rápidas em qualquer lugar.
 
 ---
 
-## 🛠️ Como Executar o Projeto
+## 🛠️ Como Executar o Projeto Localmente
 
-Como este projeto utiliza tecnologias de Front-End, ele é de execução imediata:
+Se preferir baixar o código para rodar no seu computador:
 
-1. Baixe os arquivos do repositório clicando em **Code > Download ZIP** e extraia a pasta.
+1. Clique no botão **Code > Download ZIP** aqui no GitHub e extraia a pasta.
 2. Abra o arquivo **`index.html`** em qualquer navegador.
-3. Não é necessária nenhuma configuração de servidor.
+3. Pronto! Não é necessária nenhuma configuração de servidor.
 
 ---
 
 ## 🧑‍💻 Desenvolvedor
 
 * **GitHub:** [@pernisa2](https://github.com/pernisa2)
+
+---
+
+### 📐 Demonstração Visual
+
+<p align="center">
+* <img width="1269" height="872" alt="WhatsApp Image 2026-05-31 at 20 10 03" src="https://github.com/user-attachments/assets/8b687bbb-7dad-40fb-a74c-ebdb981fd227" />
+</p>
